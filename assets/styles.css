@@ -239,17 +239,27 @@ body {
 
   .main-content {
     padding: 0 16px;
-    padding-bottom: 140px; /* More space for footer on mobile */
+    padding-bottom: 120px; /* Space for footer on mobile */
   }
 
   .footer {
+    position: absolute;
     padding: 20px 16px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
   }
 
   .footer-content {
     color: rgba(255, 255, 255, 0.9);
     font-size: 0.8rem;
+  }
+
+  .footer-content a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+  }
+
+  .footer-content a:hover {
+    color: #60a5fa;
   }
 
   .copyright {
